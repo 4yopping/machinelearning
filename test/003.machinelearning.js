@@ -6,7 +6,7 @@ const createModel = require('../lib/createModel')
 const delateModel = require('../lib/delateModel')
 const assert = require('assert')
 AWS.config.region = 'us-east-1'
-var uuid = require('node-uuid')
+var uuid = require('uuid')
 let mlId = uuid.v4()
 let self
 let predict = require('../lib/makePrediction')
